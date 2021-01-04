@@ -1,0 +1,16 @@
+.bannerContainer{
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    align-items:center; 
+    color: black; 
+}
+.bannerImage{
+    height:50vh;
+    align-self: center;
+    border-radius: 5px;
+}
+.bannerAnchor{
+    text-decoration: none;
+}
+

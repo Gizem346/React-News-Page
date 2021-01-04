@@ -1,0 +1,36 @@
+.container{
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  transition: transform .2s;
+}
+
+.container:hover{
+  transform: scale(1.02);
+  /* box-shadow: 0.3rem 0.3rem 0.9rem rgba(0,0,0,0.1); */
+}
+
+.navBar{
+    padding-right: 40px;
+    font-size: 23px;
+    text-decoration: none;
+    border-width: 2;
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    padding-right: 10px;
+    font-size: 16px;
+  }
+}
+/* 
+transition: 0.3s; */
+/* }
+.newsCardWrapper:hover{
+    transform: scale(1.02);
+    box-shadow: 0.3rem 0.3rem 0.9rem rgba(0,0,0,0.1); */

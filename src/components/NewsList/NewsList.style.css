@@ -1,0 +1,9 @@
+.newsCard{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 85vh;
+    margin-left: 20px;
+    
+}
